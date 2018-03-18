@@ -1,0 +1,42 @@
+.main {
+  margin-top: 100px;
+}
+
+.details-header {
+  margin-bottom: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color: white;
+  background: rgb(75, 75, 75);
+}
+
+.home-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 25%;
+  background: rgba(248, 246, 246, 0.678);
+}
+
+.home-link:hover {
+  background: rgb(226, 226, 226);
+  border: 1px solid rgba(42, 81, 255, 0.836);
+  animation: zoom ease-in-out 1s alternate-reverse;
+}
+
+.home {
+  height: 300px;
+}
+
+@keyframes zoom {
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.contact,
+.article {
+  display: inline-block;
+  margin-bottom: 5px;
+}
